@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{4F399154-0760-45AE-B485-38CBA5B629B5}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Startup.cs">
+    <Files>
+      <File FileName="Startup.cs" Line="55" Column="104" />
+      <File FileName="Program.cs" Line="1" Column="1" />
+      <File FileName="Properties/launchSettings.json" />
+      <File FileName="Controllers/CommentController.cs" />
+      <File FileName="Controllers/PostController.cs" />
+      <File FileName="appsettings.Development.json" Line="10" Column="83" />
+      <File FileName="init.sql" Line="2" Column="51" />
+      <File FileName="docker-compose.yml" Line="1" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="pgapp" expanded="True">
+            <Node name="pgapp" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Entities" expanded="True" />
+              <Node name="Migrations" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
+              <Node name="Startup.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.pgapp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
