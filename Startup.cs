@@ -77,6 +77,7 @@ namespace pgapp
                 endpoints.MapControllers();
             });
 
+            // Run DB migrationsn on app start
             dataContext.Database.Migrate();
         }
     }

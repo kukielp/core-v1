@@ -1,5 +1,17 @@
 version: '3'
 services:
+  web:
+    container_name: dotenetCore
+    build: .
+    ports:
+        - "80:5000"
+        - "5000:5000"
+        - "443:5001"
+    depends_on:
+        - postgres
+    environment:
+      - ASPNETCORE_URLS=https://+;http://+;
+      - ConnectionStrings__default="Server=the-production-database-server; Database=DbContextFactorySample2; Trusted_Connection=True;"
   postgres:
     image: postgres:latest
     ports: 
